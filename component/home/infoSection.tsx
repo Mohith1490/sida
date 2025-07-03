@@ -17,7 +17,7 @@ export default function InfoSection() {
                         </div>
                     </div>
                     <div className="about-image flex-1 flex justify-end transform-3d translate-[0.5107px_0px_0px]">
-                        <div className="rounded-3xl overflow-hidden shadow-lg w-full sm:w-[80%] lg:w-[80%]">
+                        <div className="rounded-3xl overflow-hidden shadow-lg w-full sm:w-[80%] lg:w-[80%] mx-auto">
                             <Image alt="legal" loading="lazy" width="600" height="400" decoding="async" data-nimg="1" className="h-auto lg:h-[calc(100vh-96px)] object-cover" src={"/image_4.jpg"} />
                         </div>
                     </div>

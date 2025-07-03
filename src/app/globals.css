@@ -126,5 +126,8 @@
   .main_page_line2{
      clip-path:polygon(50% 40%, 65% 40%, 40% 100%, 25% 100%);
   }
+  .testimonicalsection{
+    scrollbar-width: 0;
+  }
 
 }

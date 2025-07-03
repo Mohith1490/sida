@@ -9,7 +9,7 @@ export default function ChooseUs() {
                     <h2 className="text-2xl md:text-4xl font-bold mb-4 text-center text-white">Why choose us?</h2>
                 </div>
                 <div className="hidden sm:flex flex-col sm:flex-row relative -mt-8 min-h-[480px]">
-                    <div className="h-[380px] flex flex-col gap-4 opacity-0 w-full sm:w-96 absolute sm:top-12 sm:left-24 p-8 bg-purple-200 rounded-2xl" >
+                    <div className="h-[380px] flex flex-col gap-4 w-full sm:w-96 absolute sm:top-12 sm:left-24 p-8 bg-purple-200 rounded-2xl" >
                         <h3 className="text-xl sm:text-3xl font-medium">Affordable Legal Solutions</h3>
                         <p className="text-sm sm:text-base">Access premium legal services without stretching your budget.</p>
                         <hr className="border-t border-gray-500"/><ul className="list-disc list-inside text-xs sm:text-sm" >

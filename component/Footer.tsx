@@ -5,7 +5,7 @@ export default function Footer() {
             <footer className="py-8 px-4 md:py-12 md:px-12 bg-gray-50">
                 <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
                     <p className="text-gray-500 text-center md:text-left">Designed &amp; Developed by
-                        <a className="text-blue-500" href="http://sidahq.com/">SIDA Technologies</a>
+                        <a className="text-blue-500" href="http://sidahq.com/"> {" "} SIDA Technologies</a>
                     </p>
                     <div className="flex justify-center md:justify-start space-x-4">
                         <a href="#" className="text-gray-500 hover:text-gray-700 transition" target="_blank" rel="noopener noreferrer">

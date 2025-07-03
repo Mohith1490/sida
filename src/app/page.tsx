@@ -1,11 +1,11 @@
-import MainSection from "../../components/home/mainSection";
-import InfoSection from "../../components/home/infoSection";
-import ChooseUs from "../../components/home/ChooseUs";
-import AboutUs from "../../components/home/AboutUs";
-import Testimonials from "../../components/home/Testimonials";
-import Steps from "../../components/home/Steps";
-import TrustPAge from "../../components/home/TrustPage";
-import FAQSection from "../../components/home/FAQSection";
+import MainSection from "../../component/home/mainSection";
+import InfoSection from "../../component/home/infoSection";
+import ChooseUs from "../../component/home/ChooseUs";
+import AboutUs from "../../component/home/AboutUs";
+import Testimonials from "../../component/home/Testimonials";
+import Steps from "../../component/home/Steps";
+import TrustPage from "../../component/home/TrustPage";
+import FAQSection from "../../component/home/FAQSection";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
     <AboutUs/>
     <Testimonials/>
     <Steps/>
-    <TrustPAge/>
+    <TrustPage/>
     <FAQSection/>
     </>
   );

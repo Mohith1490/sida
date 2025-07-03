@@ -1,9 +1,9 @@
-import Benifits from "../../../components/plans/Benifits";
-import LegalFAQ from "../../../components/plans/LegalFAQ";
-import LegalPlans from "../../../components/plans/LegalPlans";
-import LegalSteps from "../../../components/plans/LegalSteps";
-import PlanIntro from "../../../components/plans/PlanIntro";
-import Plans from "../../../components/plans/Plans";
+import Benifits from "../../../component/plans/Benifits";
+import LegalFAQ from "../../../component/plans/LegalFAQ";
+import LegalPlans from "../../../component/plans/LegalPlans";
+import LegalSteps from "../../../component/plans/LegalSteps";
+import PlanIntro from "../../../component/plans/PlanIntro";
+import Plans from "../../../component/plans/Plans";
 
 
 export default function page(){
