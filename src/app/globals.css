@@ -114,20 +114,28 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
 }
 
-@layer utilities{
-  .main_page_line1{
-     clip-path:polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+@layer utilities {
+  .main_page_line1 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
   }
-  .main_page_line2{
-     clip-path:polygon(50% 40%, 65% 40%, 40% 100%, 25% 100%);
+
+  .main_page_line2 {
+    clip-path: polygon(50% 40%, 65% 40%, 40% 100%, 25% 100%);
   }
-  .testimonicalsection{
-    scrollbar-width: 0;
+  /* hide scrollbar in testimonial section */
+  .testimonial {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .testimonial::-webkit-scrollbar {
+    display: none;
   }
 
 }
