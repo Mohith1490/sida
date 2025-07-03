@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sida task
 
-## Getting Started
+## This is replica of original site -> [Medencelegal](https://medencelegal.in/)
 
-First, run the development server:
+### Tech stack used
+> Nextjs, Reactjs, TailwindCss, ShadCN, GSAP, Typescript
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Repo structure
+```
+component
+|-- home (index page releated content)
+|-- plans (legal plan releated content)
+|-- Header.tsx (nav bar)
+|-- Footer.tsx
+public
+|-- images
+src
+|-- app
+    |-- faqs
+        |-- page.tsx
+    |-- leagel-plans
+        |-- page.tsx
+    |-- global.css
+    |-- layout.tsx
+    |-- page.tsx
+    |--components (shadCN components)
+        |--ui
+    |-- lib
+data.ts (faq information)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Run this application
+1. Clone this site
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+git clone https://github.com/Mohith1490/sida
+code sida
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. install dependencies 
 
-## Learn More
+```
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+3. Start the application
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
