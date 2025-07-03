@@ -118,3 +118,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities{
+  .main_page_line1{
+     clip-path:polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+  }
+  .main_page_line2{
+     clip-path:polygon(50% 40%, 65% 40%, 40% 100%, 25% 100%);
+  }
+
+}
