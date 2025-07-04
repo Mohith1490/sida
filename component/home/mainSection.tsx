@@ -1,6 +1,7 @@
 import Image from "next/image"
 
 export default function MainSection() {
+
   return (
     <>
       <main className="min-h-[calc(100vh-100px)] relative flex items-center justify-between px-12 py-12 sm:py-0" >
