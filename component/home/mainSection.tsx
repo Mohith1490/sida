@@ -19,8 +19,8 @@ export default function MainSection() {
             <Image alt="Woman Lawyer" loading="lazy" width="100" height="100" decoding="async" className="w-[720px] object-contain" src={"/image_8.png"} />
           </div>
             <button className="px-8 py-4 text-[#0A0B5C] font-semibold bg-yellow-100 rounded-full shadow hover:bg-yellow-200 transition">Check Prices</button>
-            <button className="border-2 border-[#0A0B5C] sm:border-0 flex items-center justify-center gap-2 px-8 py-4 text-[#0A0B5C] font-semibold rounded-full hover:bg-gray-200 transition">Book a Call
-              <Image alt="arrow" loading="lazy" width="32" height="32" decoding="async" className="object-contain opacity-100" src={"/image_4.png"} />
+            <button className="group border-2 border-[#0A0B5C] sm:border-0 flex items-center justify-center gap-2 px-8 py-4 text-[#0A0B5C] font-semibold rounded-full hover:bg-gray-200 transition">Book a Call
+              <Image alt="arrow" loading="lazy" width="32" height="32" decoding="async" className="object-contain opacity-100 rotate-45 group-hover:rotate-0 duration-200 " src={"/image_4.png"} />
             </button>
           </div>
         </div>
