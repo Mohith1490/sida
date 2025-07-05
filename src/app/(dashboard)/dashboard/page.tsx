@@ -7,6 +7,7 @@ import {columns, Order} from "../../../../component/dataColumns"
 import { PaginationUI } from "../../../../component/Pagination"
 import { SheetUI } from "../../../../component/sheet"
 import { Sidebar } from "../../../../component/sideBar"
+import { CirclePlus } from "lucide-react"
 
 export default function page() {
     const data:Order[] = [
@@ -109,7 +110,7 @@ export default function page() {
                             <div className="flex" >
                                 <Input className="w-80 mr-3" type="text" placeholder="Search..." />
                                 <Button>
-                                     <Image width={24} height={24} className="text-white" alt="add button" src={"/addbutton.svg"} />
+                                     <CirclePlus className="stroke-black" />
                                     Status
                                 </Button>
                             </div>

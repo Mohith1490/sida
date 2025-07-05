@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import Image from "next/image"
+import { CirclePlus } from "lucide-react"
 import {
     Sheet,
     SheetClose,
@@ -18,7 +18,7 @@ export function SheetUI() {
         <Sheet>
             <SheetTrigger asChild>
                 <Button variant={"add"} >
-                    <Image width={24} height={24} className="stroke-white" alt="add button" src={"/addbutton.svg"} />
+                    <CirclePlus className="stroke-white" />
                     Add order
                 </Button>
             </SheetTrigger>
