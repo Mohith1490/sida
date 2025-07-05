@@ -60,7 +60,7 @@ export default function page() {
                         </div>
                         <div className="flex items-center justify-between mt-5" >
                             <h1 className="font-bold flex items-center" >Rows per page
-                                <Input type="number" className="w-20 ml-2" defaultValue={10} />
+                                <Input type="number" min={1} className="w-20 ml-2" defaultValue={10} />
                              </h1>
                             <PaginationUI/>
                         </div>
