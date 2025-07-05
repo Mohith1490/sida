@@ -131,10 +131,10 @@ export default function page() {
 ]
     return (
         <>
-            <div className="w-screen h-screen flex">
+            <div className="w-screen h-screen flex ">
                 <Sidebar/>
-                <div className="w-full h-full p-10 ml-20">
-                    <div className="w-[700px]  border border-gray-300 rounded-2xl px-4 py-7  " >
+                <div className="ml-20 w-full px-6 py-10 ">
+                    <div className="w-full  border border-gray-300 rounded-2xl px-4 py-7" >
                         <div className="flex justify-between">
                             <span>
                                 <h1 className="text-xl font-bold" >Orders</h1>
