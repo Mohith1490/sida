@@ -2,11 +2,11 @@
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import Image from "next/image"
-import { DataTable } from "../../../component/dataTable"
-import {columns, Order} from "../../../component/dataColumns"
-import { PaginationUI } from "../../../component/Pagination"
-import { SheetUI } from "../../../component/sheet"
-import { Sidebar } from "../../../component/sideBar"
+import { DataTable } from "../../../../component/dataTable"
+import {columns, Order} from "../../../../component/dataColumns"
+import { PaginationUI } from "../../../../component/Pagination"
+import { SheetUI } from "../../../../component/sheet"
+import { Sidebar } from "../../../../component/sideBar"
 
 export default function page() {
     const data:Order[] = [
@@ -15,7 +15,7 @@ export default function page() {
     status: "Pending",
     packerName: "Alice",
     riderName: "John",
-    bin: "B12",
+    bin: "green",
     date: "2025-07-05T10:30:00Z",
     amount: 99.99,
   },
@@ -24,17 +24,80 @@ export default function page() {
     status: "Packed",
     packerName: "Bob",
     riderName: "Mark",
-    bin: "C23",
+    bin: "yellow",
+    date: "2025-07-04T12:15:00Z",
+    amount: 149.49,
+  },
+  {
+    orderId: "ORD12346",
+    status: "Packed",
+    packerName: "Bob",
+    riderName: "Mark",
+    bin: "red",
+    date: "2025-07-04T12:15:00Z",
+    amount: 149.49,
+  },
+  {
+    orderId: "ORD12346",
+    status: "Packed",
+    packerName: "Bob",
+    riderName: "Mark",
+    bin: "pink",
+    date: "2025-07-04T12:15:00Z",
+    amount: 149.49,
+  },
+  {
+    orderId: "ORD12346",
+    status: "Packed",
+    packerName: "Bob",
+    riderName: "Mark",
+    bin: "red",
+    date: "2025-07-04T12:15:00Z",
+    amount: 149.49,
+  },
+  {
+    orderId: "ORD12346",
+    status: "Packed",
+    packerName: "Bob",
+    riderName: "Mark",
+    bin: "red",
+    date: "2025-07-04T12:15:00Z",
+    amount: 149.49,
+  },
+  {
+    orderId: "ORD12346",
+    status: "Packed",
+    packerName: "Bob",
+    riderName: "Mark",
+    bin: "green",
+    date: "2025-07-04T12:15:00Z",
+    amount: 149.49,
+  },
+  {
+    orderId: "ORD12346",
+    status: "Packed",
+    packerName: "Bob",
+    riderName: "Mark",
+    bin: "pink",
+    date: "2025-07-04T12:15:00Z",
+    amount: 149.49,
+  },
+  {
+    orderId: "ORD12346",
+    status: "Packed",
+    packerName: "Bob",
+    riderName: "Mark",
+    bin: "yellow",
     date: "2025-07-04T12:15:00Z",
     amount: 149.49,
   },
 ]
     return (
         <>
-            <div className="w-screen h-screen flex" >
+            <div className="w-screen h-screen flex">
                 <Sidebar/>
-                <div className="w-full h-full p-10" >
-                    <div className="w-[700px]  border-2 border-black rounded-2xl px-4 py-7  " >
+                <div className="w-full h-full p-10">
+                    <div className="w-[700px]  border border-gray-300 rounded-2xl px-4 py-7  " >
                         <div className="flex justify-between">
                             <span>
                                 <h1 className="text-xl font-bold" >Orders</h1>
@@ -59,7 +122,7 @@ export default function page() {
                               <DataTable columns={columns} data={data} />
                         </div>
                         <div className="flex items-center justify-between mt-5" >
-                            <h1 className="font-bold flex items-center" >Rows per page
+                            <h1 className="font-medium flex items-center" >Rows per page
                                 <Input type="number" min={1} className="w-20 ml-2" defaultValue={10} />
                              </h1>
                             <PaginationUI/>

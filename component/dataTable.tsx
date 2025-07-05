@@ -26,7 +26,7 @@ export function DataTable<TData, TValue>({ columns, data }: DataTableProps<TData
           {table.getHeaderGroups().map(headerGroup => (
             <TableRow key={headerGroup.id}>
               {headerGroup.headers.map(header => (
-                <TableHead key={header.id}>
+                <TableHead className="font-medium text-gray-500" key={header.id}>
                   {flexRender(header.column.columnDef.header, header.getContext())}
                 </TableHead>
               ))}
