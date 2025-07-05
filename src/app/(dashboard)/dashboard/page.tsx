@@ -92,12 +92,48 @@ export default function page() {
     date: "2025-07-04T12:15:00Z",
     amount: 149.49,
   },
+  {
+    orderId: "ORD12346",
+    status: "Packed",
+    packerName: "Bob",
+    riderName: "Mark",
+    bin: "yellow",
+    date: "2025-07-04T12:15:00Z",
+    amount: 149.49,
+  },
+  {
+    orderId: "ORD12346",
+    status: "Packed",
+    packerName: "Bob",
+    riderName: "Mark",
+    bin: "red",
+    date: "2025-07-04T12:15:00Z",
+    amount: 149.49,
+  },
+  {
+    orderId: "ORD12346",
+    status: "Packed",
+    packerName: "Bob",
+    riderName: "Mark",
+    bin: "green",
+    date: "2025-07-04T12:15:00Z",
+    amount: 149.49,
+  },
+  {
+    orderId: "ORD12346",
+    status: "Packed",
+    packerName: "Bob",
+    riderName: "Mark",
+    bin: "pink",
+    date: "2025-07-04T12:15:00Z",
+    amount: 149.49,
+  },
 ]
     return (
         <>
             <div className="w-screen h-screen flex">
                 <Sidebar/>
-                <div className="w-full h-full p-10">
+                <div className="w-full h-full p-10 ml-20">
                     <div className="w-[700px]  border border-gray-300 rounded-2xl px-4 py-7  " >
                         <div className="flex justify-between">
                             <span>

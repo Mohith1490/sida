@@ -14,8 +14,8 @@ export type Order = {
 const binColorMap: Record<string, string> = {
   green: "bg-green-700 hover:bg-green-500",
   red: "bg-red-700 hover:bg-red-500",
-  yellow: "bg-yellow-700 hover:bg-yellow-500",
-  pink: "bg-pink-700 hover:bg-pink-500",
+  yellow: "bg-yellow-500 hover:bg-yellow-400",
+  pink: "bg-pink-500 hover:bg-pink-400",
 }
 
 

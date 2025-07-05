@@ -1,6 +1,6 @@
 "use client"
 
-import { Home, Package, ShoppingCart, Package2, Users, ChartLine, File } from "lucide-react"
+import { Home, Package, ShoppingCart, Package2, Users, ChartLine, File,Sun,Settings } from "lucide-react"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
 
@@ -16,8 +16,8 @@ const navItems = [
 
 export function Sidebar() {
   return (
-    <aside className="w-20 h-screen border-r p-4 hidden md:block">
-      <nav className="space-y-2">
+    <aside className="w-20 h-screen border-r p-4 hidden md:block fixed">
+      <nav className="space-y-2 ">
         {navItems.map(({ label, icon: Icon, href }) => (
           <Link
             key={label}
@@ -29,6 +29,10 @@ export function Sidebar() {
             <Icon className="h-5 w-5" />
           </Link>
         ))}
+        <div className="p-3 space-y-5 absolute bottom-10" >
+          <Sun className="h-5 w-5" />
+          <Settings className="h-5 w-5" />
+        </div>
       </nav>
     </aside>
   )
