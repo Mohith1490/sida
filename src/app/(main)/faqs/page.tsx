@@ -6,7 +6,7 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
-import { GeneralFaq, Planfaq, Lawyerfaq, BillingFaq, OtherFaq } from "../../../data";
+import { GeneralFaq, Planfaq, Lawyerfaq, BillingFaq, OtherFaq } from "../../../../data";
 
 export default function Page() {
     const [toggle, setToggle] = useState<string>("general");
