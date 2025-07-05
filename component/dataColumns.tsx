@@ -43,7 +43,7 @@ export const columns: ColumnDef<Order>[] = [
     accessorKey: "amount",
     header: "Amount",
     cell: ({ row }) => {
-      const amount = row.getValue("amount")
+      const amount: number = row.getValue("amount")
       return <span>${amount.toFixed(2)}</span>
     },
   },
